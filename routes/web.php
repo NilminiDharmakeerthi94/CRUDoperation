@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('student');
 });
 Route::get("student/create",'StudentController@index');
 Route::post("student",'StudentController@store');
